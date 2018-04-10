@@ -1,27 +1,24 @@
 html, body {
   height: 100%;
-  width: 100%;
-}
+  width: 100%; }
 
 *, *:before, *:after {
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 .left_wrap {
   width: 300px;
   float: left;
   padding: 0 20px;
-  color: #ffffff;
-}
+  color: #ffffff; }
 
 .right_wrap {
   width: calc(100vw - 300px);
   float: right;
-  padding: 0 40px;
-}
+  padding: 0 40px; }
 
 .cleafix:after {
   content: '';
   display: block;
-  clear: both;
-}
+  clear: both; }
+
+/*# sourceMappingURL=common.css.map */

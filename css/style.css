@@ -1,0 +1,97 @@
+header {
+  height: 100px; }
+  header .left_wrap {
+    height: 100%;
+    background-color: #253141;
+    padding: 35px 20px 20px; }
+    header .left_wrap ul li {
+      display: inline-block; }
+      header .left_wrap ul li:first-child {
+        width: 210px;
+        font-size: 16px; }
+  header .right_wrap {
+    height: 100%;
+    padding-top: 35px; }
+    header .right_wrap .left_box {
+      float: left; }
+      header .right_wrap .left_box .group_name {
+        font-size: 20px;
+        padding-bottom: 15px; }
+      header .right_wrap .left_box .members {
+        font-size: 12px;
+        color: #999999; }
+    header .right_wrap .edit_box {
+      float: right;
+      line-height: 40px;
+      padding: 0 20px;
+      border: 1px solid #2E9AFE;
+      color: #2E9AFE; }
+
+.main_box {
+  height: calc(100vh - 190px); }
+  .main_box .left_wrap {
+    height: 100%;
+    overflow-y: scroll;
+    background-color: #2f3e51; }
+    .main_box .left_wrap ul {
+      padding-top: 20px; }
+      .main_box .left_wrap ul .group_name {
+        font-size: 15px;
+        padding-bottom: 5px;
+        color: #ffffff; }
+      .main_box .left_wrap ul .group_message {
+        font-size: 11px;
+        padding-bottom: 40px; }
+  .main_box .right_wrap {
+    overflow-y: scroll;
+    height: 100%;
+    padding-top: 46px;
+    border-top: 1px solid #eeeeee;
+    background-color: #F2F2F2; }
+    .main_box .right_wrap .message_group {
+      padding-bottom: 40px; }
+      .main_box .right_wrap .message_group .user_name {
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 10px; }
+      .main_box .right_wrap .message_group .message_time {
+        font-size: 12px;
+        color: #999999; }
+      .main_box .right_wrap .message_group .user_message {
+        font-size: 14px;
+        color: #434A54; }
+
+footer {
+  height: 90px;
+  position: fixed;
+  bottom: 0; }
+  footer .left_wrap {
+    height: 100%;
+    background-color: #2f3e51; }
+  footer .right_wrap {
+    height: 100%;
+    background-color: #ddd; }
+    footer .right_wrap form {
+      position: relative;
+      height: 90px; }
+      footer .right_wrap form textarea {
+        height: 50px;
+        margin: 20px 0;
+        resize: none;
+        border: none;
+        padding: 15px 0 15px 10px;
+        width: calc( 100% - 100px );
+        float: left; }
+      footer .right_wrap form input {
+        height: 50px;
+        width: 85px;
+        background-color: #2E9AFE;
+        float: right;
+        margin: 20px 0;
+        color: #FFFFFF; }
+      footer .right_wrap form i {
+        top: 35px;
+        right: 110px;
+        position: absolute; }
+
+/*# sourceMappingURL=style.css.map */
